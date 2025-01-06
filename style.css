@@ -13,6 +13,34 @@ footer {
   max-width: 1728px;
   margin: 0 auto;
 }
+.column {
+  background-color: grey;
+  min-height: 200px;
+}
+
+#section-1 {
+  background-color: #dcedf5;
+}
+
+#section-2 {
+  background-color: #ffd2b9;
+}
+
+#section-3 {
+  background-color: #e7ebb0;
+}
+
+#section-4 {
+  background-color: #d5f6f8;
+}
+
+#section-5 {
+  background-color: #f8c9df;
+}
+
+#section-6 {
+  background-color: #c7d4ff;
+}
 
 /*MENU DESKTOP STYLING*/
 header {
