@@ -6,6 +6,7 @@ body {
   /*TEMPORARY*/
   font-family: sans-serif;
 }
+/*FONTE*/
 
 header,
 main,
@@ -14,7 +15,7 @@ footer {
   margin: 0 auto;
 }
 .column {
-  background-color: grey;
+  background-color: rgba(108, 67, 147, 0.523);
   min-height: 200px;
 }
 
@@ -63,7 +64,7 @@ header a {
 }
 /*MENU MOBILE STYLING*/
 #menu-mobile .top {
-  background: #e9dada;
+  background: #260131;
   padding: 24px;
   display: flex;
   justify-content: space-between;
@@ -87,7 +88,7 @@ header a {
 
 #menu-mobile .nav {
   display: none;
-  background: #dac4c4;
+  background: #400053;
   padding: 16px 0;
 }
 
@@ -132,7 +133,7 @@ header a {
   display: none;
   padding: 8px 0;
   margin: 4px 0;
-  background: #d5bbbb;
+  background: #200928;
   flex-direction: column;
   line-height: 1;
 }
@@ -142,7 +143,7 @@ header a {
 }
 
 #menu-mobile .nav-link:hover {
-  background-color: #cdafb0;
+  background-color: #400053;
 }
 
 #menu-mobile #temaer-menu-label-mobile,
@@ -167,7 +168,7 @@ header a {
 }
 
 #menu-desktop .top {
-  background: #e9dada;
+  background: #260131;
   display: flex;
   justify-content: space-between;
 }
@@ -188,7 +189,7 @@ header a {
 }
 
 #menu-desktop .nav-link:hover {
-  background-color: #cdafb0;
+  background-color: #400053;
 }
 
 #menu-desktop .nav {
@@ -202,7 +203,7 @@ header a {
 #menu-desktop #temaer-menu-desktop {
   display: none;
   justify-content: flex-end;
-  background: #dac4c4;
+  background: #400053;
 }
 
 #menu-desktop #temaer-menu-desktop .nav-link {
