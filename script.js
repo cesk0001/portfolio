@@ -24,10 +24,21 @@ function handleBurgerMenuClick() {
 }
 function handleTemaerMenuClickMobile() {
   if (temaerMenuMobile.classList.contains("isOpen")) {
-    // close temaer menu
+    //luk temaer menu
     temaerMenuMobile.classList.remove("isOpen");
   } else {
-    // open temaer menu
+    //åbn temaer menu
     temaerMenuMobile.classList.add("isOpen");
+  }
+}
+function handleTemaerMenuClickDesktop() {
+  if (temaerMenuDesktop.classList.contains("isOpen")) {
+    //luk temaer menu
+    temaerMenuDesktop.classList.remove("isOpen");
+    temaerMenuLabelDesktopArrow.classList.remove("isOpen");
+  } else {
+    //åbn temaer menu
+    temaerMenuDesktop.classList.add("isOpen");
+    temaerMenuLabelDesktopArrow.classList.add("isOpen");
   }
 }
