@@ -22,3 +22,12 @@ function handleBurgerMenuClick() {
     menuMobile.classList.add("isOpen");
   }
 }
+function handleTemaerMenuClickMobile() {
+  if (temaerMenuMobile.classList.contains("isOpen")) {
+    // close temaer menu
+    temaerMenuMobile.classList.remove("isOpen");
+  } else {
+    // open temaer menu
+    temaerMenuMobile.classList.add("isOpen");
+  }
+}
