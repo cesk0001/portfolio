@@ -3,10 +3,28 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /*TEMPORARY*/
-  font-family: sans-serif;
+  background-color: #fcf7e8;
 }
-/*FONTE*/
+/*GOOGLE FONT*/
+.new-rocker-regular {
+  font-family: "New Rocker", serif;
+}
+
+h1,
+h2,
+button {
+  font-family: "New Rocker", serif;
+}
+p,
+a {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+button {
+  background-color: #200928;
+  color: #f6d162;
+  border: 2px solid #400053;
+  border-radius: 8px;
+}
 
 header,
 main,
@@ -15,12 +33,12 @@ footer {
   margin: 0 auto;
 }
 .column {
-  background-color: rgba(108, 67, 147, 0.523);
+  background-color: #fcf7e8;
   min-height: 200px;
 }
 
 #section-1 {
-  background-color: #dcedf5;
+  background-color: #fcf7e8;
 }
 
 #section-2 {
@@ -48,23 +66,29 @@ header {
   position: sticky;
   top: 0;
   user-select: none;
+  color: #f6d162;
 }
 header a {
   text-decoration: none;
-  color: black;
+  color: #f6d162;
 }
 
-#logo {
+.logo {
   display: flex;
   align-items: center;
   line-height: 24px;
 }
+.logo a {
+  font-family: "New Rocker", serif;
+  font-size: x-large;
+}
+
 .nav-link:hover {
-  color: #7b2527;
+  color: #f5f2c8;
 }
 /*MENU MOBILE STYLING*/
 #menu-mobile .top {
-  background: #260131;
+  background: #200928;
   padding: 24px;
   display: flex;
   justify-content: space-between;
@@ -88,8 +112,11 @@ header a {
 
 #menu-mobile .nav {
   display: none;
-  background: #400053;
+  background: #200928;
   padding: 16px 0;
+}
+#temaer-menu-label-mobile {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 #menu-mobile.isOpen .nav {
@@ -168,12 +195,12 @@ header a {
 }
 
 #menu-desktop .top {
-  background: #260131;
+  background: #200928;
   display: flex;
   justify-content: space-between;
 }
 
-#menu-desktop #logo {
+#menu-desktop .logo {
   padding: 24px;
 }
 
@@ -198,12 +225,13 @@ header a {
 
 #temaer-menu-label-desktop {
   padding: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 #menu-desktop #temaer-menu-desktop {
   display: none;
   justify-content: flex-end;
-  background: #400053;
+  background: #200928;
 }
 
 #menu-desktop #temaer-menu-desktop .nav-link {
@@ -270,3 +298,29 @@ header a {
   }
 }
 /*FOOTER STYLING*/
+footer {
+  background-color: #200928;
+}
+
+.footer-columns {
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer p {
+  color: #f6d162;
+}
+.some-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.some-wrapper p {
+  font-size: 14px;
+}
+
+.some-wrapper img {
+  padding-left: 8px;
+  width: 36px;
+}
