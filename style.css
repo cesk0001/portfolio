@@ -39,7 +39,7 @@ a {
   font-size: 14px;
   padding: 12px 24px;
   margin: 16px 0;
-  transition: all .15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 a:hover .button,
@@ -390,14 +390,13 @@ section {
 }
 
 @media (min-width: 770px) {
-
   .thumbnail-link .button {
     display: none;
   }
 
   .thumbnail-link img {
     opacity: 1;
-    transition: opacity .15s ease-in-out;
+    transition: opacity 0.15s ease-in-out;
   }
 
   .thumbnail-link:hover img {
@@ -416,7 +415,7 @@ section {
     color: #000000;
     font-size: 20px;
     font-family: "New Rocker", serif;
-    transition: opacity .15s ease-in-out;
+    transition: opacity 0.15s ease-in-out;
     opacity: 0;
   }
 
