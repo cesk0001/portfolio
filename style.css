@@ -492,7 +492,7 @@ footer p {
 }
 
 #about-main {
-  background-color: #ffd2b9;
+  background-color: #f4d989;
 }
 
 /* TEMA SIDER */
@@ -500,7 +500,18 @@ footer p {
 #tema-top {
   background-color: #f4d989;
 }
-
-#tema-main {
+#tema1-main {
   background-color: #ffd2b9;
+}
+#tema2-main {
+  background-color: #e7ebb0;
+}
+#tema3-main {
+  background-color: #d5f6f8;
+}
+#tema4-main {
+  background-color: #f8c9df;
+}
+#tema5-main {
+  background-color: #c7d4ff;
 }
